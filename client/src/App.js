@@ -1,7 +1,7 @@
 import {useState,useEffect} from "react"
-import Map from './components/Map';
+import Map from './components/Map/Map';
 import axios from "axios"
-import Loader from "./components/Loader"
+import Loader from "./components/Loader/Loader"
 function App() {
   const [eventData, setEventData] = useState([]);
   const [loading, setLoading] = useState(true);
