@@ -9,7 +9,8 @@ function App() {
 
   async function getData() {
     try {
-      const response = await axios.get(`https://eonet.sci.gsfc.nasa.gov/api/v2.1/events?api_key=${process.env.JMkey}`)
+      const response = await axios.get(`https://eonet.sci.gsfc.nasa.gov/api/v2.1/events?api_key=jYV7PuwCbvuIvlSqiR0mCaZsVSLX6ebaidZ6h8lq
+      `)
           if (response.data.events !== "") {
             setLoading(false);
             setEventData(response.data.events)
