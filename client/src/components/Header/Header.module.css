@@ -1,3 +1,18 @@
 .Header{
-     font-size:12px
+background: -webkit-linear-gradient(145deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+}
+.Headline{
+     font-size:25px;
+     text-align:center;
+     font-weight:bold;
+     color:#fff;
+     
+}
+.Options{
+     padding:5px;
+     display:flex;
+     font-size:15px;
+     justify-content: center;
+     background-color:transparent;
 }
